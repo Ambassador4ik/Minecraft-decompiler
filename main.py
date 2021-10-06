@@ -3,6 +3,7 @@ import decompiler
 import os.path
 import time
 
+
 path = input()
 filenames = next(os.walk(path), (None, None, []))[2]
 filecount = len(filenames)
